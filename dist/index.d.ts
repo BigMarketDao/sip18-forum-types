@@ -8,7 +8,7 @@ interface BaseForumContent {
     linkedAccounts: LinkedAccount[];
     created: number;
     edited?: number;
-    deleted: boolean;
+    deleted?: boolean;
 }
 interface AuthenticatedForumMessageBoard {
     auth: PostAuthorisation;
